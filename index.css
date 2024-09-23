@@ -1,0 +1,69 @@
+Body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+}
+.Page1{
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    background-color: #000000;
+    height: 100vh;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+.header{
+    padding: 30px;
+    display: flex;
+    gap: 450px;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+.icon{
+    margin-left: 60px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+.body{
+    gap: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    color: white;
+    font-size: x-large;
+}
+.P1{
+    height: 450px;
+    width: auto;
+}
+.bio{
+    font-size: 16px;
+    line-height: 30px;
+    width: 700px;
+}
+.media-icons{
+    padding: 30px;
+    margin-left: 30px;
+    height: 40px;
+    width: auto;
+}
+.Page2{
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    background-color: #000000;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+.project-header{
+    padding: 30px;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+}
