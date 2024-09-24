@@ -3,6 +3,16 @@ Body{
     padding: 0;
     height: 100vh;
 }
+p{
+    margin: 0;
+    line-height: 23px;
+}
+h2{
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    font-size: 30px;
+}
 .Page1{
     margin: 0;
     font-family: "Exo 2", sans-serif;
@@ -61,9 +71,65 @@ Body{
     background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
 }
 .project-header{
-    padding: 30px;
+    padding: 20px;
     display: flex;
     font-size: 2rem;
     font-weight: bold;
     justify-content: center;
+}
+.Project{
+    gap: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flex-container{
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    flex-grow: 3;
+}
+.project-icon{
+    height: 140px;
+    width: auto;
+}
+.project-block{
+    display: flex;
+    align-items: flex-start;
+}
+.project-heading{
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 23px;
+}
+.project-details{
+    display: inline;
+    padding: 5px;
+}
+.education{
+    margin-left: 50px;
+}
+.skills{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.soft-skills{
+    margin-right: 250px;
+}
+.technical-skills p{
+    font-size: 20px;
+    padding: 10px;
+}
+.soft-skills p{
+    font-size: 20px;
+    padding: 10px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
